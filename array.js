@@ -12,7 +12,7 @@ var newHexdata2 = [["0x1C541e05a5A640755B3F1B2434dB4e8096b8322f","100"],["0x5b38
     */
     const buf2hex = x => '0x' + x.toString('hex')
 
-    const finaladdress = buf2hex(keccak256("0x5B38Da6a701c568545dCfcB03FcB875f56beddC4").toString('hex'))
+    const finaladdress = buf2hex(keccak256("0x5B38Da6a701c568545dCfcB03FcB875f56beddC4"))
 
     /* 
     the amount should be converted into bytes32 value using the method below
